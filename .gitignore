@@ -1,0 +1,19 @@
+# .gitignore
+
+# Exclude virtual environment directories
+env/
+__pycache__/
+
+# Exclude data files
+data/bluebook-for-bulldozers/Train.csv
+data/bluebook-for-bulldozers/TrainAndValid.csv
+*.zip
+*.7z
+
+# Exclude other unnecessary files
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
